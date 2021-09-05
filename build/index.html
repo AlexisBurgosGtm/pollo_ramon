@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!--Designed By ALpha-->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="google" content="notranslate" />
+        <!-- Vendor styles -->
+        <link rel="stylesheet" href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="vendors/bower_components/animate.css/animate.min.css">
+        <link rel="stylesheet" href="vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
+
+        <!-- App styles -->
+        <link rel="stylesheet" href="css/app.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+        <title>Venta de Pollo</title>
+    </head>
+
+    <body data-sa-theme="1">
+        <main class="main">
+            <div class="page-loader">
+                <div class="page-loader__spinner">
+                    <svg viewBox="25 25 50 50">
+                        <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+
+            <header class="header">
+     
+
+                <div class="logo">
+                    <h1><a href="#">Ramón Co.</a></h1>
+                </div>
+
+                         <ul class="top-nav">
+              
+               
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-item theme-switch">
+                                Theme Switch
+
+                                <div class="btn-group btn-group--colors mt-2 d-block" data-toggle="buttons">
+                                    <label class="btn active border-0" style="background-color: #772036"><input type="radio" value="1" autocomplete="off" checked></label>
+                                    <label class="btn border-0" style="background-color: #273C5B"><input type="radio" value="2" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #174042"><input type="radio" value="3" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #383844"><input type="radio" value="4" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #49423F"><input type="radio" value="5" autocomplete="off"></label>
+
+                                    <br>
+
+                                    <label class="btn border-0" style="background-color: #5e3d22"><input type="radio" value="6" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #234d6d"><input type="radio" value="7" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #3b5e5e"><input type="radio" value="8" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #0a4c3e"><input type="radio" value="9" autocomplete="off"></label>
+                                    <label class="btn border-0" style="background-color: #7b3d54"><input type="radio" value="10" autocomplete="off"></label>
+                                </div>
+                            </div>
+                       
+                        </div>
+                    </li>
+                </ul> 
+            </header>
+
+            <section class="content">
+                <div class="content__inner">
+                    <div id="root">
+
+                        
+                    </div>
+
+           
+                    <footer class="footer hidden-xs-down">
+                        <p>Creado por Alexis Burgos</p>
+                    </footer>
+                </div>
+            </section>
+        </main>
+
+        <div class="modal fade" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" id="modalLogin">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img src="./favicon.png" width="40" height="40" alt="">
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Ruta</label>
+                        <select class="form-control" id="cmbLoginRuta">
+                            <option value="1">RUTA 1</option>
+                            <option value="2">RUTA 2</option>
+                            <option value="0">ADMINISTRADOR</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Contraseña</label>
+                        <input type="password" class="form-control" placeholder="Escriba su clave..." id="txtLoginPass">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  
+                  <button type="button" class="btn btn-primary" id="btnLoginIngresar">Ingresar</button>
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+
+   
+        <!-- Javascript -->
+        <!-- Vendors -->
+        <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="vendors/bower_components/popper.js/dist/umd/popper.min.js"></script>
+        <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="vendors/bower_components/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+        <script src="vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+
+        <!-- App functions and actions -->
+        <script src="js/app.min.js"></script>
+        <script src="views/ventas.js"></script>
+        <script src="./index.js"></script>
+
+    </body>
+
+<!--Designed By ALpha-->
+</html>

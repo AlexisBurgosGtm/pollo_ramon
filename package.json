@@ -1,0 +1,27 @@
+{
+  "name": "pollo-ramon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisBurgosGtm/pollo_ramon.git"
+  },
+  "author": "Alexis Burgos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisBurgosGtm/pollo_ramon/issues"
+  },
+  "homepage": "https://github.com/AlexisBurgosGtm/pollo_ramon#readme"
+}

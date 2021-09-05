@@ -1,0 +1,63 @@
+.modal-with-scroll{
+    overflow-y: scroll; 
+  }
+  
+  
+  .negrita {
+    font-weight: bold;
+  }
+
+  .hidden{
+    visibility: hidden;
+  }
+
+  .mapcontainer2 {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.bg-negro{
+
+  background:transparent;
+  color:white;
+
+}
+
+.hand{
+  cursor: pointer;
+}
+
+.boton-derecha { 
+  position: fixed;
+  z-index: 888;
+  right: 21px;
+  bottom: 50px;
+}
+
+.boton-izquierda { 
+  position: fixed;
+  z-index: 888;
+  left: 21px;
+  bottom: 50px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
